@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.ce-single-review{}
+.ce-single-review .author-meta{}
+.ce-single-review .author-meta .author-thumb{}
+.ce-single-review .author-meta .author-details{}
+.ce-single-review .author-meta .author-details h3{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.ce-single-review .review-content{}
+.ce-single-review .review-content .star-rating-wrapper{}
+.ce-single-review .review-content .star-rating-wrapper .star-rating{
+    width: 108px;
+    height: 20px;
+}
+.ce-single-review .review-content .star-rating-wrapper .star-rating img{
+    max-width: 100%;
+}
+.ce-single-review .review-content .star-rating-wrapper .review-text{}
+.ce-single-review .review-content .star-rating-wrapper .review-text h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.ce-single-review .review-content .star-rating-wrapper .review-text p{
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+}
